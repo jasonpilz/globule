@@ -28,8 +28,8 @@ Default extensions:
 * '.rb'
 * '.js'
 
-TODO:
-[ ] Accept source dirs and extensions as arguments, or via a config file
+TODO
+- [ ] Accept source dirs and extensions as arguments, or via a config file
 
 ## Installation
 
@@ -38,7 +38,7 @@ To install the executable locally, from this project root directory, run:
 mix escript.install
 ```
 
-Adding your `escripts` directory to your `PATH` will allow convinient invocation.
+Add your `escripts` directory to your `PATH` for convenient invocation.
 More info [here](https://hexdocs.pm/mix/Mix.Tasks.Escript.Install.html#content)
 
 If [available in Hex](https://hex.pm/docs/publish), the package can be installed
@@ -55,4 +55,3 @@ end
 Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
 and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
 be found at [https://hexdocs.pm/globule](https://hexdocs.pm/globule).
-
