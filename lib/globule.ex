@@ -1,6 +1,6 @@
-defmodule CodiceGlob do
+defmodule Globule do
   @moduledoc """
-  Documentation for CodiceGlob.
+  Documentation for Globule.
   """
 
   @doc """
@@ -8,7 +8,7 @@ defmodule CodiceGlob do
 
   ## Examples
 
-      iex> CodiceGlob.hello
+      iex> Globule.hello
       :world
 
   """

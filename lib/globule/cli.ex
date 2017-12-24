@@ -1,4 +1,4 @@
-defmodule CodiceGlob.CLI do
+defmodule Globule.CLI do
   def main(_args \\ []) do
     process()
   end
@@ -33,7 +33,7 @@ defmodule CodiceGlob.CLI do
   end
 
   defp write_to_file(data) do
-    {:ok, device} = File.open("./code", [:write, :utf8])
+    {:ok, device} = File.open("./glob", [:write, :utf8])
 
     IO.write(device, data)
 

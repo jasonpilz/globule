@@ -1,9 +1,9 @@
-defmodule CodiceGlob.Mixfile do
+defmodule Globule.Mixfile do
   use Mix.Project
 
   def project do
     [
-      app:             :codice_glob,
+      app:             :globule,
       version:         "0.1.0",
       elixir:          "~> 1.5",
       escript:         escript(),
@@ -27,7 +27,7 @@ defmodule CodiceGlob.Mixfile do
 
   defp escript do
     [
-      main_module: CodiceGlob.CLI
+      main_module: Globule.CLI
     ]
   end
 end
